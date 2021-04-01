@@ -1,0 +1,8 @@
+    df = pd.read_csv('Data/{val1}.csv')
+    sn = df['Summonername']
+    rank = df['Rank']
+    lp = df['LP']
+    cl1.{val2} = pd.DataFrame(columns=['Summonername', 'Rank', 'LP'])
+    for i in range(len(sn)):
+        newrow = {{'Summonername': sn[i], 'Rank': rank[i], 'LP': lp[i]}}
+        cl1.{val3}.append(newrow)

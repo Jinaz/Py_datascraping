@@ -1,0 +1,13 @@
+    if tier == "{curr}":
+        diffs = []
+        for el in cl1.{rankC}:
+            if el not in cl2.{rankZ}:
+                diffs.append(el)
+            negatives = []
+            positives = []
+            for diff in diffs:
+                if diff in cl2.{rankU1}:
+                    positives.append(diff)
+                elif diff in cl2.{rankD1} or diff in cl2.{rankD2}:
+                    negatives.append(diff)
+            return negatives, positives
