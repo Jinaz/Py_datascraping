@@ -8,6 +8,12 @@ __pycache__/
 
 #.idea
 .idea/
+key_bot/v/
+key_bot/venv/
+key_bot/.idea/
+
+#
+*.png
 
 # Distribution / packaging
 .Python
